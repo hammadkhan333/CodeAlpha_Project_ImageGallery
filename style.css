@@ -11,7 +11,6 @@ body {
 
 .gallery-container {
     position: relative;
-    max-height: 50%;
     max-width: 80%;
     margin: auto;
     overflow: hidden;
@@ -27,8 +26,8 @@ body {
 }
 
 .gallery-image {
-    width: 80%; /* Set a specific width */
-    height: 50px; /* Set a specific height */
+    width: 80%; /* Change this to adjust image width */
+    height: 300px; /* Change this to adjust image height */
     object-fit: cover; /* Ensures the image covers the entire area without stretching */
     transition: opacity 0.5s ease-in-out;
     border-radius: 15px;
